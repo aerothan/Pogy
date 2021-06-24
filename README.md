@@ -80,98 +80,10 @@ Pogy even has the following features on the website
 </h1>
 
   
- **Webhooks: (for Developer)**
- With Pogy You can even log everything using webhooks. ( you will have to change each webhook using visual studio code )
-
-<h1 align="center">
-  <a href="https://github.com/peterhanania"><img src="https://i.imgur.com/vbGuLdL.jpg"></a>
-</h1>
-
-## Installation
-
-First clone the repo:
-```
-git clone https://github.com/peterhanania/Pogy.git
-```
-After cloning, run an
-```
-npm install
-```
-
-
-## Setting Up
-
-Your `config.json` should look like this:
-```
-{
-  "main_token": process.env.token, 
-  "mongodb_url": "", //mongo db URL
-  "alexflipnoteApiKey":"", //get from https://discord.gg/bsUDZqUbyz
-  "developers": ["", ""], //developers ID
-  "datadogApiKey": "", // for statistics (optional)
-  "dashboard":"false", 
-  "prefix":"p!", //prefix
-  "arc":"",//arc.io source (optional)
-  "youtube_key":"", //youtube api key from https://console.cloud.google.com/apis/
-  "cat_api_key":"",// https://thecatapi.com/signup
-  "webhook_id":"", //read config.json
-  "webhook_url":"" //read config.json
-}
-
-```
-
-Your `config.js` should look like this:
-```
-module.exports = {
- "verification": "",
- "description": "", //description
- "domain": "", // domain
- "google_analitics": "", // google analitics
- "token": process.env.TOKEN,
- "https":"https://", // leave as is
- "port":"5003",
-
- "client_id":"", // bot client ID
- "secret":""// bot client secret for auth
-
-}
-```
-Your `.env` file should be:
-```
-TOKEN=BOT_TOKEN
-```
-
-### for dashboard set up read https://github.com/IgorKowalczyk/majobot
-
-**callbacks on auth dev portal:**
-`https://domain/callback`
-`https://domain/window`
-`https://domain/thanks`
-
-Pease make sure you have enabled `Privileged Intents` on your Discord [developer portal](https://discordapp.com/developers/applications/). You can find these intents under the "Bot" section, and there are two ticks you have to switch on. For more information on Gateway Intents, check out [this](https://discordjs.guide/popular-topics/intents.html#the-intents-bit-field-wrapper) link.
-
-You can launch the bot with `node shard.js` 
-
-**Important Note:** Pogy has so many bugs and requires a lot of js knowledge. You will have some difficulty running the bot if you have no experience in discord.js. 
-
-### Emojis 
-- You can change the emojis in: <br>
-1- `assets/emojis.json` <br>
-2- `data/emoji.js`
-
-### Colors
-
-- You can change the colors in `data/colors.js`
-
-
-
 ## License
 
 Released under the [Apache License](http://www.apache.org/licenses/LICENSE-2.0) license.
 
-## Donate
-
-You can donate Pogy and make it stronger than ever [by clicking here](https://paypal.me/pogybot)!
 
 ## Credits
 
