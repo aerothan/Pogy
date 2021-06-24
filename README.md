@@ -43,9 +43,7 @@
 
 ## About
 
-Pogy is a discontinued discord bot that took over 4 months of work to make. I decided to make the bot open sourced to whoever wants to run a copy in their server! You can click [this](https://pogy.xyz/invite) link to invite the official Bot! Also, you can join the official [Pogy's Support Server](https://pogy.xyz/support) for assistance.
-
-If you liked this repository, feel free to leave a star ⭐ and follow me, it actually means a lot.
+Pogy is a discontinued discord bot. They have open source the bot to allow others to take over. I am currently in the process of adding onto the bot. If you are wanting this bot make sure to head over to the pogy github and fork plus star!
 
 ## Features
 
