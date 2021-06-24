@@ -1,8 +1,7 @@
 <h1 align="center">
  <br>
-  <a href="https://github.com/peterhanania"><img src="https://pogy.xyz/thumb.png"></a>
   <br>
-  Pogy the Discord Bot
+  Pogy the Discord Bot (Aero continuation addition)
   <br>
 </h1>
 
